@@ -3992,3 +3992,14 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.12.18-17.37.14:821][170]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2021.12.18-17.37.14:821][170]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
 [2021.12.18-17.37.14:821][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.18-18.59.28:947][586]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.12.18-18.59.28:947][586]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.12.18-19.18.29:264][431]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.18-19.18.30:092][467]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/DemoContent/DemoLevel.DemoLevel:PersistentLevel.DemoLevel
+[2021.12.18-19.18.32:603][596]LogSlate: Window 'DemoLevel' being destroyed
+[2021.12.18-19.18.32:639][596]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.12.18-19.18.32:639][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.18-19.18.38:509][940]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/DemoContent/MyCharacter.MyCharacter
+[2021.12.18-19.18.41:645][142]LogSlate: Window 'MyCharacter' being destroyed
+[2021.12.18-19.18.50:209][862]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.18-19.19.51:625][847]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
