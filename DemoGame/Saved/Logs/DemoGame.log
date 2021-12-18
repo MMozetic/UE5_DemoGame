@@ -2224,3 +2224,24 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.12.18-14.42.55:965][722]AssetCheck: New page: Asset Save: multiple assets
 [2021.12.18-14.42.55:965][722]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/DemoContent/DemoLevel_BuiltData.DemoLevel_BuiltData
 [2021.12.18-14.42.55:965][722]LogContentValidation: Display: Validating World /Game/DemoContent/DemoLevel.DemoLevel
+[2021.12.18-14.43.48:589][422]LogLevelInstance: Warning: Failed to move actors out of Level Instance because not all actors could be moved
+[2021.12.18-14.43.49:659][505]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2021.12.18-14.43.49:710][505]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/DemoLevel5CEFDF8A4153CAAE4BD26FBC7AFF0FF0.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/DemoLevel.umap'
+[2021.12.18-14.43.49:714][505]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/DemoContent/DemoLevel_BuiltData
+[2021.12.18-14.43.49:779][505]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/DemoLevel_BuiltData8E0685E240DA0F7150619E8D12663ADD.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/DemoLevel_BuiltData.uasset'
+[2021.12.18-14.43.49:781][505]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/DemoContent/DemoLevel_BuiltData
+[2021.12.18-14.43.49:790][505]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.18-14.43.49:791][505]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/DemoContent/DemoLevel_BuiltData.DemoLevel_BuiltData
+[2021.12.18-14.43.49:791][505]LogContentValidation: Display: Validating World /Game/DemoContent/DemoLevel.DemoLevel
+[2021.12.18-14.44.31:640][970]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.12.18-14.44.31:691][970]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/DemoLevel2418321041A221DB2912F28D95A64998.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/DemoLevel.umap'
+[2021.12.18-14.44.31:695][970]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/DemoContent/DemoLevel_BuiltData
+[2021.12.18-14.44.31:759][970]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/DemoLevel_BuiltDataE3323252440084ABA70BDBA9A94DA7DA.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/DemoLevel_BuiltData.uasset'
+[2021.12.18-14.44.31:760][970]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/DemoContent/DemoLevel_BuiltData
+[2021.12.18-14.44.31:773][970]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.18-14.44.31:773][970]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/DemoContent/DemoLevel_BuiltData.DemoLevel_BuiltData
+[2021.12.18-14.44.31:773][970]LogContentValidation: Display: Validating World /Game/DemoContent/DemoLevel.DemoLevel
