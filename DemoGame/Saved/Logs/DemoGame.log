@@ -2128,3 +2128,293 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.12.19-14.19.10:844][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
 [2021.12.19-14.19.10:874][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
 [2021.12.19-14.19.10:909][ 22]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.12.19-14.25.07:143][431]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2021.12.19-14.25.07:162][431]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2021.12.19-14.25.10:792][484]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> NewWidgetBlueprint
+[2021.12.19-14.25.10:793][484]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2021.12.19-14.25.15:968][689]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> PauseMenu
+[2021.12.19-14.25.16:050][689]LogMetaData: Removing '/Game/DemoContent/PauseMenu.SKEL_PauseMenu_C' ref from Metadata '/Game/DemoContent/NewWidgetBlueprint.PackageMetaData'
+[2021.12.19-14.25.16:050][689]LogMetaData: Removing '/Game/DemoContent/PauseMenu.PauseMenu_C' ref from Metadata '/Game/DemoContent/NewWidgetBlueprint.PackageMetaData'
+[2021.12.19-14.25.16:050][689]LogMetaData: Removing '/Game/DemoContent/PauseMenu.PauseMenu:EventGraph.K2Node_Event_0' ref from Metadata '/Game/DemoContent/NewWidgetBlueprint.PackageMetaData'
+[2021.12.19-14.25.16:050][689]LogMetaData: Removing '/Game/DemoContent/PauseMenu.PauseMenu:EventGraph.K2Node_Event_1' ref from Metadata '/Game/DemoContent/NewWidgetBlueprint.PackageMetaData'
+[2021.12.19-14.25.16:050][689]LogMetaData: Removing '/Game/DemoContent/PauseMenu.PauseMenu:EventGraph.K2Node_Event_2' ref from Metadata '/Game/DemoContent/NewWidgetBlueprint.PackageMetaData'
+[2021.12.19-14.25.16:100][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/PauseMenu" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset" SILENT=true
+[2021.12.19-14.25.16:103][689]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/PauseMenuB5BB3C5D4FA6297D8BF067835BF69981.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset'
+[2021.12.19-14.25.16:232][689]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2021.12.19-14.25.16:272][689]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.12.19-14.25.16:301][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2021.12.19-14.25.16:308][689]AssetCheck: New page: Asset Save: PauseMenu
+[2021.12.19-14.25.16:308][689]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/PauseMenu.PauseMenu
+[2021.12.19-14.25.22:851][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/PauseMenu" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset" SILENT=true
+[2021.12.19-14.25.22:854][754]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/PauseMenu3BDE25DE4270D493913DE090D50F68E1.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset'
+[2021.12.19-14.25.22:866][754]AssetCheck: New page: Asset Save: PauseMenu
+[2021.12.19-14.25.22:866][754]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/PauseMenu.PauseMenu
+[2021.12.19-14.25.23:953][797]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/DemoContent/PauseMenu.PauseMenu
+[2021.12.19-14.25.24:301][797]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2021.12.19-14.25.24:301][797]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2021.12.19-14.25.31:063][ 39]LogSlate: Window 'PauseMenu' being destroyed
+[2021.12.19-14.25.46:784][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/PauseMenu" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset" SILENT=true
+[2021.12.19-14.25.46:787][ 35]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/PauseMenuA2CB78204754E9AD4616DAA794B21A1E.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset'
+[2021.12.19-14.25.46:799][ 35]AssetCheck: New page: Asset Save: PauseMenu
+[2021.12.19-14.25.46:799][ 35]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/PauseMenu.PauseMenu
+[2021.12.19-14.25.57:800][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/PauseMenu" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset" SILENT=true
+[2021.12.19-14.25.57:803][710]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/PauseMenu6F604A3144F69231D68F228D120117C1.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset'
+[2021.12.19-14.25.57:814][710]AssetCheck: New page: Asset Save: PauseMenu
+[2021.12.19-14.25.57:814][710]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/PauseMenu.PauseMenu
+[2021.12.19-14.26.06:434][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/PauseMenu" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset" SILENT=true
+[2021.12.19-14.26.06:437][188]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/PauseMenu4F1D4D144D4D2EF27427AF8A7E96B6EE.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset'
+[2021.12.19-14.26.06:448][188]AssetCheck: New page: Asset Save: PauseMenu
+[2021.12.19-14.26.06:448][188]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/PauseMenu.PauseMenu
+[2021.12.19-14.26.12:484][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/PauseMenu" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset" SILENT=true
+[2021.12.19-14.26.12:488][661]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/PauseMenu1FEDC6274DCE6F7A6F20A6BE9CF5F6BF.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset'
+[2021.12.19-14.26.12:499][661]AssetCheck: New page: Asset Save: PauseMenu
+[2021.12.19-14.26.12:499][661]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/PauseMenu.PauseMenu
+[2021.12.19-14.26.25:533][145]LogSlate: Window 'Color Picker' being destroyed
+[2021.12.19-14.26.40:567][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/PauseMenu" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset" SILENT=true
+[2021.12.19-14.26.40:570][ 39]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/PauseMenu4D95F6944FAB75FEBD33BAB2E965ECEE.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset'
+[2021.12.19-14.26.40:582][ 39]AssetCheck: New page: Asset Save: PauseMenu
+[2021.12.19-14.26.40:582][ 39]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/PauseMenu.PauseMenu
+[2021.12.19-14.26.53:416][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/PauseMenu" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset" SILENT=true
+[2021.12.19-14.26.53:419][506]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/PauseMenu82EC6DD449B3046A73C9E6AE2D3A8A60.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset'
+[2021.12.19-14.26.53:430][506]AssetCheck: New page: Asset Save: PauseMenu
+[2021.12.19-14.26.53:430][506]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/PauseMenu.PauseMenu
+[2021.12.19-14.26.57:232][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/PauseMenu" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset" SILENT=true
+[2021.12.19-14.26.57:235][872]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/PauseMenu6424B0B94CFFAC108EF2469FEBB9B369.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset'
+[2021.12.19-14.26.57:246][872]AssetCheck: New page: Asset Save: PauseMenu
+[2021.12.19-14.26.57:246][872]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/PauseMenu.PauseMenu
+[2021.12.19-14.26.57:431][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/PauseMenu" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset" SILENT=true
+[2021.12.19-14.26.57:434][888]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/PauseMenu1042D63B47F70AABFB68CDB8B55C6650.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset'
+[2021.12.19-14.26.57:445][888]AssetCheck: New page: Asset Save: PauseMenu
+[2021.12.19-14.26.57:445][888]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/PauseMenu.PauseMenu
+[2021.12.19-14.26.57:883][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/PauseMenu" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset" SILENT=true
+[2021.12.19-14.26.57:886][934]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/PauseMenuED5D0C904BF15738EC4F4EA3886F1580.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset'
+[2021.12.19-14.26.57:898][934]AssetCheck: New page: Asset Save: PauseMenu
+[2021.12.19-14.26.57:898][934]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/PauseMenu.PauseMenu
+[2021.12.19-14.26.58:049][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/PauseMenu" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset" SILENT=true
+[2021.12.19-14.26.58:052][948]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/PauseMenuE1FC8D41494CDFCC521879A1E3E9716B.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset'
+[2021.12.19-14.26.58:063][948]AssetCheck: New page: Asset Save: PauseMenu
+[2021.12.19-14.26.58:063][948]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/PauseMenu.PauseMenu
+[2021.12.19-14.26.58:248][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/PauseMenu" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset" SILENT=true
+[2021.12.19-14.26.58:251][965]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/PauseMenu86036EE1463DBCE2A9DC829FACE97F6D.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset'
+[2021.12.19-14.26.58:262][965]AssetCheck: New page: Asset Save: PauseMenu
+[2021.12.19-14.26.58:262][965]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/PauseMenu.PauseMenu
+[2021.12.19-14.27.02:263][437]BlueprintLog: New page: Compile PauseMenu
+[2021.12.19-14.27.02:333][437]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2021.12.19-14.27.03:482][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/PauseMenu" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset" SILENT=true
+[2021.12.19-14.27.03:486][560]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/PauseMenuB43328D540565DE676E6598899A76F8B.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/PauseMenu.uasset'
+[2021.12.19-14.27.03:497][560]AssetCheck: New page: Asset Save: PauseMenu
+[2021.12.19-14.27.03:497][560]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/PauseMenu.PauseMenu
+[2021.12.19-14.28.13:527][296]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyCharacterE14C21AB41B20690E9F5C79BB713EA50.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyCharacter.uasset'
+[2021.12.19-14.28.13:539][296]AssetCheck: New page: Asset Save: MyCharacter
+[2021.12.19-14.28.13:539][296]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyCharacter.MyCharacter
+[2021.12.19-14.28.33:694][633]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyCharacter12E2205C449B217139E701ACB536F563.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyCharacter.uasset'
+[2021.12.19-14.28.33:706][633]AssetCheck: New page: Asset Save: MyCharacter
+[2021.12.19-14.28.33:706][633]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyCharacter.MyCharacter
+[2021.12.19-14.28.52:944][700]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyCharacterF28731CC466A099F48FC538D733234A5.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyCharacter.uasset'
+[2021.12.19-14.28.52:956][700]AssetCheck: New page: Asset Save: MyCharacter
+[2021.12.19-14.28.52:956][700]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyCharacter.MyCharacter
+[2021.12.19-14.29.00:328][316]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyCharacter74969E224B68229F8C2E46B937759D4B.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyCharacter.uasset'
+[2021.12.19-14.29.00:339][316]AssetCheck: New page: Asset Save: MyCharacter
+[2021.12.19-14.29.00:339][316]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyCharacter.MyCharacter
+[2021.12.19-14.29.00:910][378]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyCharacter0E4389B04B11467ED61F928D0B8FBBB6.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyCharacter.uasset'
+[2021.12.19-14.29.00:922][378]AssetCheck: New page: Asset Save: MyCharacter
+[2021.12.19-14.29.00:922][378]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyCharacter.MyCharacter
+[2021.12.19-14.29.27:910][320]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SGraphPanel [SGraphEditorImpl.cpp(668)].
+[2021.12.19-14.29.27:928][320]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyCharacter1CB701DE4CD003FAE19CF3BA1CC10FA7.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyCharacter.uasset'
+[2021.12.19-14.29.27:941][320]AssetCheck: New page: Asset Save: MyCharacter
+[2021.12.19-14.29.27:941][320]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyCharacter.MyCharacter
+[2021.12.19-14.29.35:295][175]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyCharacter103CC49846C4C818B9E5F6BF2CD22678.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyCharacter.uasset'
+[2021.12.19-14.29.35:308][175]AssetCheck: New page: Asset Save: MyCharacter
+[2021.12.19-14.29.35:308][175]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyCharacter.MyCharacter
+[2021.12.19-14.29.49:510][298]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyCharacter47C5E7124DAD58FCE1073198BC664D75.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyCharacter.uasset'
+[2021.12.19-14.29.49:522][298]AssetCheck: New page: Asset Save: MyCharacter
+[2021.12.19-14.29.49:522][298]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyCharacter.MyCharacter
+[2021.12.19-14.30.06:312][249]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyCharacter8550AEAB4ED5CCCAAA0614A95EF628A2.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyCharacter.uasset'
+[2021.12.19-14.30.06:324][249]AssetCheck: New page: Asset Save: MyCharacter
+[2021.12.19-14.30.06:324][249]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyCharacter.MyCharacter
+[2021.12.19-14.30.07:460][377]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyCharacter1EE87FD24F76726D5325749835A9E93C.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyCharacter.uasset'
+[2021.12.19-14.30.07:471][377]AssetCheck: New page: Asset Save: MyCharacter
+[2021.12.19-14.30.07:471][377]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyCharacter.MyCharacter
+[2021.12.19-14.30.07:963][429]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyCharacterFEDEC9E848923EE2AB10B9BC2A9B9FC8.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyCharacter.uasset'
+[2021.12.19-14.30.07:975][429]AssetCheck: New page: Asset Save: MyCharacter
+[2021.12.19-14.30.07:975][429]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyCharacter.MyCharacter
+[2021.12.19-14.30.13:461][648]BlueprintLog: New page: Compile MyCharacter
+[2021.12.19-14.30.13:546][648]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2021.12.19-14.30.14:027][669]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyCharacterFFB779194EDD5C9A96DB5D9E455B12FF.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyCharacter.uasset'
+[2021.12.19-14.30.14:038][669]AssetCheck: New page: Asset Save: MyCharacter
+[2021.12.19-14.30.14:038][669]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyCharacter.MyCharacter
+[2021.12.19-14.30.14:412][707]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyCharacterB0C39DA74D863B2500442185D696753D.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyCharacter.uasset'
+[2021.12.19-14.30.14:424][707]AssetCheck: New page: Asset Save: MyCharacter
+[2021.12.19-14.30.14:424][707]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyCharacter.MyCharacter
+[2021.12.19-14.30.15:061][779]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2021.12.19-14.30.15:145][779]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2021.12.19-14.30.15:197][779]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/DemoLevel396877834DAD04700B3FBA9128338AD8.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/DemoLevel.umap'
+[2021.12.19-14.30.15:203][779]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/DemoContent/DemoLevel_BuiltData
+[2021.12.19-14.30.15:271][779]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/DemoLevel_BuiltData41CF8F5242C8EC8E33855DB19FBEFFDB.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/DemoLevel_BuiltData.uasset'
+[2021.12.19-14.30.15:273][779]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/DemoContent/DemoLevel_BuiltData
+[2021.12.19-14.30.15:273][779]LogFileHelpers: Saving map 'DemoLevel' took 0.161
+[2021.12.19-14.30.15:289][779]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.19-14.30.15:289][779]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/DemoContent/DemoLevel_BuiltData.DemoLevel_BuiltData
+[2021.12.19-14.30.15:289][779]LogContentValidation: Display: Validating World /Game/DemoContent/DemoLevel.DemoLevel
+[2021.12.19-14.30.59:391][521]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerController68FD8EEA418277C897D91CAC109FA168.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.30.59:403][521]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.30.59:403][521]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.31.17:626][ 63]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerController1664D44443C8053C076D83AD3A098667.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.31.17:637][ 63]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.31.17:638][ 63]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.31.28:374][664]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerController94FCCD294524A86FCD3CB8B870C1A56E.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.31.28:385][664]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.31.28:385][664]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.31.35:425][184]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerController2E079F30461677D67C1A1D88710B6A8F.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.31.35:437][184]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.31.35:437][184]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.31.36:125][260]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerController13AFE9DE45C1A1E5E73F15A4BF77981C.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.31.36:136][260]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.31.36:136][260]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.31.37:660][432]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerController1ECA18C049D0E41E1D37C5AE047A5F56.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.31.37:674][432]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.31.37:674][432]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.31.39:708][666]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerControllerF15E9CC8453A57C9E003F8AF37FD9501.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.31.39:720][666]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.31.39:720][666]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.31.40:107][705]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerController08A37BD1411DFCE54A8D408BF1219AD0.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.31.40:119][705]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.31.40:119][705]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.31.53:175][495]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerController8CD429B64BA76CC019081F8D5A7FA08E.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.31.53:187][495]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.31.53:187][495]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.31.58:058][908]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerControllerB666E69C402569E3809FB2B60153BAC1.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.31.58:071][908]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.31.58:071][908]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.32.12:592][564]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerController548E888E4CE48C13003B1E993C400DB4.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.32.12:606][564]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.32.12:606][564]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.32.21:392][267]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerControllerF577B76A4FE7380971EA9A82AF59EF45.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.32.21:404][267]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.32.21:404][267]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.32.46:225][859]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerControllerF0F06C8B48A3C84D41C21AB46849634F.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.32.46:236][859]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.32.46:236][859]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.33.12:691][ 34]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerControllerF200C509442D8447650FC0B94955ED4C.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.33.12:702][ 34]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.33.12:702][ 34]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.33.15:041][305]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerController78BE197E411505A82342BDB8E7486FAD.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.33.15:054][305]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.33.15:054][305]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.33.17:126][535]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerControllerB2ACC67449768973F5E7B8B162788948.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.33.17:137][535]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.33.17:137][535]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.33.22:975][776]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerController567000164FF5AA38598E1A8CCD16F5FE.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.33.22:986][776]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.33.22:986][776]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.33.35:675][155]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerControllerACE45E504DFEEA9F5BF6AAA5096A9619.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.33.35:687][155]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.33.35:687][155]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.33.38:242][434]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerControllerC6BC46EC476DB9AF43AA56A20D8B6370.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.33.38:253][434]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.33.38:253][434]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.34.06:008][ 89]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerController520504EE4EDE819F999DEFA5546F9DA3.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.34.06:020][ 89]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.34.06:020][ 89]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.34.06:174][100]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerController18113B434474D7B40C1C6D98B9DB7A23.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.34.06:185][100]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.34.06:185][100]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.34.12:725][855]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerController729F4AF74F11AD57FBD9FAA263590DB1.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.34.12:737][855]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.34.12:737][855]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.34.13:473][936]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerControllerA335D19E4574C37DD9F23D8688B3C461.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.34.13:485][936]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.34.13:485][936]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.34.14:091][  1]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerControllerB2A43DE148E0C05B673718BBAA6DDCFF.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.34.14:103][  1]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.34.14:103][  1]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.34.14:865][ 88]BlueprintLog: New page: Compile MyPlayerController
+[2021.12.19-14.34.14:919][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2021.12.19-14.34.15:524][149]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerController839695864BF74C0B5AAA19A2A5A900EE.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.34.15:535][149]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.34.15:535][149]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.34.15:941][189]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerController57E80B524A5E44DE0A24538E799AD049.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.34.15:953][189]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.34.15:953][189]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.34.18:157][447]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerController0C66AF3B499E9A84F34DA1BD125ACD12.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.34.18:169][447]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.34.18:169][447]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.34.39:974][968]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerControllerA92094754BEDF2CE2F1A6283C7319683.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.34.39:985][968]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.34.39:986][968]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.34.40:974][ 73]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerController6AE96CE047368918519693BA7C6C3413.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.34.40:985][ 73]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.34.40:986][ 73]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.35.01:173][431]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyCharacter64694F4E4439B24DB875B48986B68542.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyCharacter.uasset'
+[2021.12.19-14.35.01:186][431]AssetCheck: New page: Asset Save: MyCharacter
+[2021.12.19-14.35.01:187][431]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyCharacter.MyCharacter
+[2021.12.19-14.35.03:075][553]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2021.12.19-14.35.08:608][631]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.12.19-14.35.08:615][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.19-14.35.08:616][631]PIE: New page: PIE session: DemoLevel (Dec 19, 2021, 4:35:08 PM)
+[2021.12.19-14.35.08:616][631]LogPlayLevel: Creating play world package: /Game/DemoContent/UEDPIE_0_DemoLevel
+[2021.12.19-14.35.08:636][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019973s)
+[2021.12.19-14.35.08:637][631]LogAIModule: Creating AISystem for world DemoLevel
+[2021.12.19-14.35.08:637][631]LogPlayLevel: PIE: World Init took: (0.001107s)
+[2021.12.19-14.35.08:637][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoContent/DemoLevel.DemoLevel to /Game/DemoContent/UEDPIE_0_DemoLevel.DemoLevel (0.021219s)
+[2021.12.19-14.35.08:670][631]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2021.12.19-14.35.08:671][631]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2021.12.19-14.35.08:671][631]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.19-14.35.08:671][631]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.19-14.35.08:671][631]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.19-14.35.08:671][631]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.19-14.35.08:671][631]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.19-14.35.08:671][631]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.19-14.35.08:671][631]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.19-14.35.08:671][631]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.19-14.35.08:672][631]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.19-14.35.08:672][631]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.19-14.35.08:676][631]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.19-14.35.08:676][631]LogAudioMixer: Display: 1: FrontRight
+[2021.12.19-14.35.08:689][631]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.19-14.35.08:689][631]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.19-14.35.08:690][631]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.19-14.35.08:690][631]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.19-14.35.08:690][631]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.19-14.35.08:690][631]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.19-14.35.08:691][631]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.19-14.35.08:691][631]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.19-14.35.08:691][631]LogInit: FAudioDevice initialized.
+[2021.12.19-14.35.08:691][631]LogAudio: Display: Audio Device (ID: 10) registered with world 'DemoLevel'.
+[2021.12.19-14.35.08:699][631]LogLoad: Game class is 'MyGameMode_C'
+[2021.12.19-14.35.08:701][631]LogWorld: Bringing World /Game/DemoContent/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2021.12.19-15.35.08
+[2021.12.19-14.35.08:701][631]LogWorld: Bringing up level for play took: 0.002377
+[2021.12.19-14.35.08:701][631]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2021.12.19-14.35.08:705][631]PIE: Server logged in
+[2021.12.19-14.35.08:705][631]PIE: Play in editor total start time 0.092 seconds.
+[2021.12.19-14.35.11:432][704]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-14.35.12:505][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-14.35.14:149][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-14.35.15:554][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-14.35.17:078][850]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-14.35.17:078][850]LogWorld: BeginTearingDown for /Game/DemoContent/UEDPIE_0_DemoLevel
+[2021.12.19-14.35.17:078][850]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-14.35.17:078][850]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-14.35.17:088][850]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.19-14.35.17:113][850]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-14.35.17:144][850]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-14.35.17:145][850]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.19-14.35.17:146][850]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.19-14.35.17:153][850]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2021.12.19-14.35.17:187][850]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2021.12.19-14.35.17:221][851]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2021.12.19-14.36.13:823][850]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerControllerBCEDB31D4F80ACA07D5CADB79CBBCE50.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.36.13:834][850]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.36.13:834][850]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.36.13:989][861]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerController44F777AD419BFCAF533577AF5C884973.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.36.14:000][861]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.36.14:000][861]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.36.14:573][922]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerController718B65CF4F810B54C26D4CA0E30916F9.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.36.14:586][922]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.36.14:586][922]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.36.14:922][956]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyPlayerController7D3657C1463CA0BCA239088082939E7F.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyPlayerController.uasset'
+[2021.12.19-14.36.14:934][956]AssetCheck: New page: Asset Save: MyPlayerController
+[2021.12.19-14.36.14:934][956]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
+[2021.12.19-14.36.17:161][216]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
