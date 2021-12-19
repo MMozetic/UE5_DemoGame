@@ -2418,3 +2418,19 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.12.19-14.36.14:934][956]AssetCheck: New page: Asset Save: MyPlayerController
 [2021.12.19-14.36.14:934][956]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyPlayerController.MyPlayerController
 [2021.12.19-14.36.17:161][216]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2021.12.19-14.36.56:584][971]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2021.12.19-14.36.56:584][971]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2021.12.19-14.36.59:393][284]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2021.12.19-14.36.59:393][284]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2021.12.19-14.37.55:451][218]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2021.12.19-14.37.55:451][218]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2021.12.19-14.38.50:604][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.38.50:622][339]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUD91FF15434D022370EAC82786F4F849E2.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.38.50:634][339]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.38.50:634][339]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.38.51:885][488]BlueprintLog: New page: Compile MyHUD
+[2021.12.19-14.38.51:954][488]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2021.12.19-14.38.52:638][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.38.52:654][560]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUD6691841F4BFE266E7DFB56A4A68DB8EF.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.38.52:666][560]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.38.52:666][560]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
