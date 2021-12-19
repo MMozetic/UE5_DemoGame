@@ -1713,3 +1713,418 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.12.19-14.00.50:960][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
 [2021.12.19-14.00.50:990][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
 [2021.12.19-14.00.51:011][ 24]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.12.19-14.03.25:513][878]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.12.19-14.03.25:520][878]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.19-14.03.25:521][878]PIE: New page: PIE session: DemoLevel (Dec 19, 2021, 4:03:25 PM)
+[2021.12.19-14.03.25:521][878]LogPlayLevel: Creating play world package: /Game/DemoContent/UEDPIE_0_DemoLevel
+[2021.12.19-14.03.25:540][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019394s)
+[2021.12.19-14.03.25:541][878]LogAIModule: Creating AISystem for world DemoLevel
+[2021.12.19-14.03.25:541][878]LogPlayLevel: PIE: World Init took: (0.001116s)
+[2021.12.19-14.03.25:541][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoContent/DemoLevel.DemoLevel to /Game/DemoContent/UEDPIE_0_DemoLevel.DemoLevel (0.020639s)
+[2021.12.19-14.03.25:573][878]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2021.12.19-14.03.25:575][878]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.12.19-14.03.25:575][878]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.19-14.03.25:575][878]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.19-14.03.25:575][878]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.19-14.03.25:575][878]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.19-14.03.25:575][878]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.19-14.03.25:575][878]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.19-14.03.25:575][878]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.19-14.03.25:575][878]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.19-14.03.25:576][878]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.19-14.03.25:576][878]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.19-14.03.25:579][878]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.19-14.03.25:579][878]LogAudioMixer: Display: 1: FrontRight
+[2021.12.19-14.03.25:591][878]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.19-14.03.25:591][878]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.19-14.03.25:591][878]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.19-14.03.25:592][878]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.19-14.03.25:592][878]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.19-14.03.25:592][878]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.19-14.03.25:593][878]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.19-14.03.25:593][878]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.19-14.03.25:593][878]LogInit: FAudioDevice initialized.
+[2021.12.19-14.03.25:593][878]LogAudio: Display: Audio Device (ID: 6) registered with world 'DemoLevel'.
+[2021.12.19-14.03.25:598][878]LogLoad: Game class is 'MyGameMode_C'
+[2021.12.19-14.03.25:601][878]LogWorld: Bringing World /Game/DemoContent/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2021.12.19-15.03.25
+[2021.12.19-14.03.25:601][878]LogWorld: Bringing up level for play took: 0.002354
+[2021.12.19-14.03.25:601][878]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.12.19-14.03.25:604][878]PIE: Server logged in
+[2021.12.19-14.03.25:605][878]PIE: Play in editor total start time 0.086 seconds.
+[2021.12.19-14.03.27:177][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-14.03.27:177][922]LogWorld: BeginTearingDown for /Game/DemoContent/UEDPIE_0_DemoLevel
+[2021.12.19-14.03.27:178][922]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-14.03.27:178][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-14.03.27:183][922]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.19-14.03.27:189][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-14.03.27:217][922]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.19-14.03.27:217][922]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.19-14.03.27:218][922]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.19-14.03.27:221][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-14.03.27:225][922]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.12.19-14.03.27:254][922]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2021.12.19-14.03.27:276][923]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.12.19-14.03.36:537][433]Cmd: SELECT NONE
+[2021.12.19-14.06.20:250][896]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.12.19-14.06.23:268][226]BlueprintLog: New page: Compile MyCharacter
+[2021.12.19-14.06.23:333][226]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2021.12.19-14.06.23:979][277]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyCharacter7F6902544B5D89E90774F6A22DF07511.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyCharacter.uasset'
+[2021.12.19-14.06.23:990][277]AssetCheck: New page: Asset Save: MyCharacter
+[2021.12.19-14.06.23:990][277]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyCharacter.MyCharacter
+[2021.12.19-14.06.24:131][287]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyCharacterD88C5B4143FE3413710EACA440328262.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyCharacter.uasset'
+[2021.12.19-14.06.24:143][287]AssetCheck: New page: Asset Save: MyCharacter
+[2021.12.19-14.06.24:143][287]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/MyCharacter.MyCharacter
+[2021.12.19-14.06.28:404][401]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2021.12.19-14.06.28:464][401]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.12.19-14.06.28:515][401]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/DemoLevelDF2087164FA10FA0C01551946C1D4608.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/DemoLevel.umap'
+[2021.12.19-14.06.28:520][401]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/DemoContent/DemoLevel_BuiltData
+[2021.12.19-14.06.28:588][401]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/DemoLevel_BuiltData832DF9E24BC5746ACC8355A30BB70001.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/DemoLevel_BuiltData.uasset'
+[2021.12.19-14.06.28:590][401]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/DemoContent/DemoLevel_BuiltData
+[2021.12.19-14.06.28:590][401]LogFileHelpers: Saving map 'DemoLevel' took 0.155
+[2021.12.19-14.06.28:600][401]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.19-14.06.28:600][401]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/DemoContent/DemoLevel_BuiltData.DemoLevel_BuiltData
+[2021.12.19-14.06.28:600][401]LogContentValidation: Display: Validating World /Game/DemoContent/DemoLevel.DemoLevel
+[2021.12.19-14.06.41:663][ 16]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2021.12.19-14.06.41:663][ 16]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2021.12.19-14.07.05:584][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.07.05:600][  8]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUD2EEAC92C4BCA277FB22BF59186BB53CC.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.07.05:612][  8]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.07.05:612][  8]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.07.06:616][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.07.06:633][121]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUD0973209E4871BAB0344352A6F16AF16D.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.07.06:643][121]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.07.06:644][121]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.07.11:251][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.07.11:268][652]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUD3468017F45BEFCAA91A7E189EAA59AE8.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.07.11:279][652]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.07.11:279][652]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.07.24:669][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.07.24:685][775]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUD5CAD6EEF4EE15F677A41C895EEA27941.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.07.24:696][775]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.07.24:696][775]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.07.42:400][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.07.42:417][510]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUDD0486C904F13385AB749B295091D6AC8.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.07.42:429][510]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.07.42:429][510]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.07.53:818][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.07.53:835][193]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUD39ECB9F14867935639F28B9EB17D0BEE.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.07.53:847][193]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.07.53:847][193]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.08.13:033][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.08.13:049][121]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUD81BD83D94B7488EA5BBA54818C735EE4.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.08.13:061][121]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.08.13:061][121]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.08.31:517][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.08.31:533][995]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUD4FBA2B4443466231FF8772BB2EE56019.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.08.31:544][995]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.08.31:544][995]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.08.49:017][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.08.49:033][406]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUD6198538E42FC520957A4AEB9D12742B0.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.08.49:045][406]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.08.49:045][406]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.08.50:448][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.08.50:464][568]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUD2FCC8C234C3AB1F9D925A995ED2AEFB6.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.08.50:475][568]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.08.50:475][568]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.09.05:889][ 99]LogSlate: Window 'Color Picker' being destroyed
+[2021.12.19-14.09.06:199][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.09.06:215][130]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUD4D8688D44FB21DD94704CC99A9CC4CDF.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.09.06:225][130]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.09.06:225][130]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.09.17:699][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.09.17:715][401]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUD4D0B1AE44A19E00C80410DA7F162F3BF.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.09.17:726][401]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.09.17:726][401]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.09.18:182][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.09.18:198][449]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUDF19B52824471C84AC3B83CAAC7065795.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.09.18:209][449]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.09.18:209][449]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.09.27:981][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.09.27:997][ 62]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUDEF1845E44E7647A5A8EF9BB840765BE5.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.09.28:008][ 62]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.09.28:008][ 62]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.09.41:401][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.09.41:417][907]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUD4CCEB3654C60F84DEFA06FA368066008.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.09.41:431][907]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.09.41:431][907]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.09.49:631][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.09.49:647][853]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUD4B2C13E447FF816194DC15A5096DA986.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.09.49:658][853]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.09.49:658][853]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.09.50:297][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.09.50:314][923]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUD864E8D4D420A34B22E9E569587C64C53.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.09.50:326][923]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.09.50:326][923]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.09.53:981][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.09.53:997][333]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUD4C6F31BC47895EF3239005831D5EC0F8.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.09.54:009][333]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.09.54:009][333]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.10.36:401][197]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2021.12.19-14.10.36:402][197]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2021.12.19-14.10.45:565][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.10.45:582][224]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUDD50565094286A3E05698E398CAD3E922.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.10.45:593][224]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.10.45:593][224]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.10.49:331][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.10.49:348][647]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUD97278E504BDCCF415F8E9FB753F58EEE.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.10.49:360][647]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.10.49:360][647]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.10.49:497][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.10.49:513][658]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUDA1644FFE46FE8CE2AE6FFAB93E5ACE64.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.10.49:525][658]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.10.49:525][658]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.10.50:309][750]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2021.12.19-14.10.50:309][750]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2021.12.19-14.10.50:780][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.10.50:797][783]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUDB8F193B7478C58A4287ABC872065639F.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.10.50:810][783]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.10.50:810][783]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.11.00:069][288]BlueprintLog: New page: Compile MyHUD
+[2021.12.19-14.11.00:144][288]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2021.12.19-14.11.00:880][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.11.00:897][364]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUDC847EC6C4AE5608E69F920BEE23F166A.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.11.00:909][364]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.11.00:909][364]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.11.01:081][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoContent/MyHUD" FILE="../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset" SILENT=true
+[2021.12.19-14.11.01:098][379]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/MyHUD3E14EBF048B569674BCAC2B41D4D2F9C.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/MyHUD.uasset'
+[2021.12.19-14.11.01:109][379]AssetCheck: New page: Asset Save: MyHUD
+[2021.12.19-14.11.01:109][379]LogContentValidation: Display: Validating WidgetBlueprint /Game/DemoContent/MyHUD.MyHUD
+[2021.12.19-14.11.32:976][203]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoorDE8D0930449EFE39F90D05AC207FE3D0.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.11.32:988][203]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.11.32:988][203]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.12.10:526][442]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoor00692EEA4C00F6FD0B98BFAF395678FC.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.12.10:537][442]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.12.10:537][442]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.12.51:836][770]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoor018F30124D7EEE85C3B4A9AE438EFEB3.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.12.51:847][770]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.12.51:847][770]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.12.58:041][481]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoor712B857E4B3BDFE15E9FAA9B8F08DF13.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.12.58:053][481]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.12.58:053][481]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.12.59:444][639]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoorC1CEB6DC410BABB861329B88B99B0BDF.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.12.59:455][639]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.12.59:456][639]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.13.01:479][842]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoor9E6533AB460698D641200385ABED8A57.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.13.01:491][842]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.13.01:491][842]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.13.46:309][780]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoor848854B043E77A5A535AECB3F655AE10.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.13.46:321][780]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.13.46:321][780]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.13.58:290][219]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoorF2B74C2043F2313B3568D7A4D383B95F.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.13.58:301][219]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.13.58:301][219]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.14.01:308][566]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoor60BB489A4C838D53C6730EB571EE40BF.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.14.01:320][566]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.14.01:320][566]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.14.13:602][458]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoorA2D7E9204B5E54CAC28B4299F9A8EDCA.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.14.13:614][458]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.14.13:614][458]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.14.29:184][441]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoorCACB24AE49BE37441CB8818092CF89EF.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.14.29:195][441]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.14.29:195][441]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.14.31:376][695]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoor67A3C76542232A813C154C8D1C850386.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.14.31:390][695]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.14.31:390][695]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.14.57:602][480]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoorEA17B33A4447A896451ECC8AACCD9734.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.14.57:613][480]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.14.57:614][480]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.15.07:284][147]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoorF9B27FCD4181FBD22BBD6696536704FA.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.15.07:295][147]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.15.07:295][147]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.15.44:225][ 74]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoorF1DF353F40646C683D7E879A39D3B594.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.15.44:236][ 74]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.15.44:236][ 74]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.15.45:474][212]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoor6ADEE422442D7E1EDBE0DEAD6D632C4C.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.15.45:486][212]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.15.45:486][212]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.15.48:019][482]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoor4410252149E7D6E52C101C825B788B04.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.15.48:030][482]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.15.48:030][482]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.16.23:758][445]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoor468AFDB24A77BCEDBC3B2E879DDDE936.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.16.23:770][445]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.16.23:770][445]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.16.51:957][725]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoor9B1F07A84F026209D436A3A065B13B8F.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.16.51:968][725]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.16.51:969][725]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.16.52:407][762]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoor02A4F2534AB0C8C6D612DAA5698835EF.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.16.52:418][762]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.16.52:418][762]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.17.19:738][ 42]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoorF6828CB4479A11390F1D30BAC5C3BAB6.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.17.19:751][ 42]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.17.19:751][ 42]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.17.20:223][ 86]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoor793965484E205F552C37FAB20E27204E.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.17.20:234][ 86]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.17.20:234][ 86]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.17.53:081][396]BlueprintLog: New page: Compile EndOfLevelDoor
+[2021.12.19-14.17.53:143][396]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
+[2021.12.19-14.17.53:818][459]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoorA80D11414E0F3E1B4A2CFDA8D1E5B149.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.17.53:830][459]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.17.53:830][459]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.17.54:105][484]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoorDFFDDA0644F6AA8459CD158594C2571C.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-14.17.54:116][484]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-14.17.54:116][484]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-14.17.54:671][545]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2021.12.19-14.17.54:752][545]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2021.12.19-14.17.54:804][545]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/DemoLevel21E563CE4DBB29D1E263129AAF409BAD.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/DemoLevel.umap'
+[2021.12.19-14.17.54:810][545]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/DemoContent/DemoLevel_BuiltData
+[2021.12.19-14.17.54:875][545]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/DemoLevel_BuiltDataBE6AA6FD44250CD9D947C594166AE6B3.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/DemoLevel_BuiltData.uasset'
+[2021.12.19-14.17.54:876][545]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/DemoContent/DemoLevel_BuiltData
+[2021.12.19-14.17.54:876][545]LogFileHelpers: Saving map 'DemoLevel' took 0.153
+[2021.12.19-14.17.54:887][545]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.19-14.17.54:887][545]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/DemoContent/DemoLevel_BuiltData.DemoLevel_BuiltData
+[2021.12.19-14.17.54:888][545]LogContentValidation: Display: Validating World /Game/DemoContent/DemoLevel.DemoLevel
+[2021.12.19-14.17.56:838][660]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.12.19-14.17.56:845][660]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.19-14.17.56:845][660]PIE: New page: PIE session: DemoLevel (Dec 19, 2021, 4:17:56 PM)
+[2021.12.19-14.17.56:845][660]LogPlayLevel: Creating play world package: /Game/DemoContent/UEDPIE_0_DemoLevel
+[2021.12.19-14.17.56:864][660]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018856s)
+[2021.12.19-14.17.56:865][660]LogAIModule: Creating AISystem for world DemoLevel
+[2021.12.19-14.17.56:866][660]LogPlayLevel: PIE: World Init took: (0.001367s)
+[2021.12.19-14.17.56:866][660]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoContent/DemoLevel.DemoLevel to /Game/DemoContent/UEDPIE_0_DemoLevel.DemoLevel (0.020377s)
+[2021.12.19-14.17.56:897][660]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2021.12.19-14.17.56:899][660]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.12.19-14.17.56:899][660]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.19-14.17.56:899][660]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.19-14.17.56:899][660]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.19-14.17.56:899][660]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.19-14.17.56:899][660]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.19-14.17.56:899][660]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.19-14.17.56:899][660]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.19-14.17.56:899][660]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.19-14.17.56:899][660]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.19-14.17.56:899][660]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.19-14.17.56:903][660]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.19-14.17.56:903][660]LogAudioMixer: Display: 1: FrontRight
+[2021.12.19-14.17.56:916][660]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.19-14.17.56:916][660]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.19-14.17.56:916][660]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.19-14.17.56:916][660]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.19-14.17.56:918][660]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.19-14.17.56:918][660]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.19-14.17.56:919][660]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.19-14.17.56:919][660]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.19-14.17.56:919][660]LogInit: FAudioDevice initialized.
+[2021.12.19-14.17.56:919][660]LogAudio: Display: Audio Device (ID: 7) registered with world 'DemoLevel'.
+[2021.12.19-14.17.56:923][660]LogLoad: Game class is 'MyGameMode_C'
+[2021.12.19-14.17.56:926][660]LogWorld: Bringing World /Game/DemoContent/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2021.12.19-15.17.56
+[2021.12.19-14.17.56:926][660]LogWorld: Bringing up level for play took: 0.002447
+[2021.12.19-14.17.56:926][660]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.12.19-14.17.56:929][660]PIE: Server logged in
+[2021.12.19-14.17.56:930][660]PIE: Play in editor total start time 0.087 seconds.
+[2021.12.19-14.18.02:638][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-14.18.02:638][808]LogWorld: BeginTearingDown for /Game/DemoContent/UEDPIE_0_DemoLevel
+[2021.12.19-14.18.02:638][808]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-14.18.02:639][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-14.18.02:648][808]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.19-14.18.02:654][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-14.18.02:682][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-14.18.02:682][808]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.19-14.18.02:683][808]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.19-14.18.02:690][808]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2021.12.19-14.18.02:721][808]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2021.12.19-14.18.02:743][809]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.12.19-14.18.07:522][ 80]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.19-14.18.07:522][ 80]PIE: New page: PIE session: DemoLevel (Dec 19, 2021, 4:18:07 PM)
+[2021.12.19-14.18.07:522][ 80]LogPlayLevel: Creating play world package: /Game/DemoContent/UEDPIE_0_DemoLevel
+[2021.12.19-14.18.07:541][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018532s)
+[2021.12.19-14.18.07:541][ 80]LogAIModule: Creating AISystem for world DemoLevel
+[2021.12.19-14.18.07:542][ 80]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2021.12.19-14.18.07:542][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoContent/DemoLevel.DemoLevel to /Game/DemoContent/UEDPIE_0_DemoLevel.DemoLevel (0.019653s)
+[2021.12.19-14.18.07:572][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2021.12.19-14.18.07:574][ 80]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.12.19-14.18.07:574][ 80]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.19-14.18.07:574][ 80]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.19-14.18.07:574][ 80]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.19-14.18.07:574][ 80]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.19-14.18.07:574][ 80]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.19-14.18.07:574][ 80]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.19-14.18.07:574][ 80]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.19-14.18.07:574][ 80]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.19-14.18.07:574][ 80]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.19-14.18.07:574][ 80]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.19-14.18.07:577][ 80]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.19-14.18.07:577][ 80]LogAudioMixer: Display: 1: FrontRight
+[2021.12.19-14.18.07:589][ 80]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.19-14.18.07:590][ 80]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.19-14.18.07:590][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.19-14.18.07:590][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.19-14.18.07:590][ 80]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.19-14.18.07:590][ 80]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.19-14.18.07:591][ 80]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.19-14.18.07:592][ 80]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.19-14.18.07:592][ 80]LogInit: FAudioDevice initialized.
+[2021.12.19-14.18.07:592][ 80]LogAudio: Display: Audio Device (ID: 8) registered with world 'DemoLevel'.
+[2021.12.19-14.18.07:603][ 80]LogLoad: Game class is 'MyGameMode_C'
+[2021.12.19-14.18.07:605][ 80]LogWorld: Bringing World /Game/DemoContent/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2021.12.19-15.18.07
+[2021.12.19-14.18.07:605][ 80]LogWorld: Bringing up level for play took: 0.002373
+[2021.12.19-14.18.07:605][ 80]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.12.19-14.18.07:608][ 80]PIE: Server logged in
+[2021.12.19-14.18.07:609][ 80]PIE: Play in editor total start time 0.089 seconds.
+[2021.12.19-14.18.16:098][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-14.18.16:098][385]LogWorld: BeginTearingDown for /Game/DemoContent/UEDPIE_0_DemoLevel
+[2021.12.19-14.18.16:098][385]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-14.18.16:099][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-14.18.16:116][385]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.19-14.18.16:140][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-14.18.16:169][385]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.19-14.18.16:169][385]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.19-14.18.16:170][385]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.19-14.18.16:172][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-14.18.16:177][385]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2021.12.19-14.18.16:208][385]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.12.19-14.18.16:244][386]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.12.19-14.18.17:481][438]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.12.19-14.18.17:488][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.19-14.18.17:488][438]PIE: New page: PIE session: DemoLevel (Dec 19, 2021, 4:18:17 PM)
+[2021.12.19-14.18.17:488][438]LogPlayLevel: Creating play world package: /Game/DemoContent/UEDPIE_0_DemoLevel
+[2021.12.19-14.18.17:509][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019876s)
+[2021.12.19-14.18.17:510][438]LogAIModule: Creating AISystem for world DemoLevel
+[2021.12.19-14.18.17:510][438]LogPlayLevel: PIE: World Init took: (0.001187s)
+[2021.12.19-14.18.17:510][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoContent/DemoLevel.DemoLevel to /Game/DemoContent/UEDPIE_0_DemoLevel.DemoLevel (0.021293s)
+[2021.12.19-14.18.17:541][438]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2021.12.19-14.18.17:543][438]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2021.12.19-14.18.17:543][438]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.19-14.18.17:543][438]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.19-14.18.17:543][438]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.19-14.18.17:543][438]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.19-14.18.17:543][438]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.19-14.18.17:543][438]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.19-14.18.17:543][438]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.19-14.18.17:543][438]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.19-14.18.17:543][438]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.19-14.18.17:543][438]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.19-14.18.17:546][438]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.19-14.18.17:546][438]LogAudioMixer: Display: 1: FrontRight
+[2021.12.19-14.18.17:559][438]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.19-14.18.17:559][438]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.19-14.18.17:559][438]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.19-14.18.17:559][438]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.19-14.18.17:559][438]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.19-14.18.17:559][438]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.19-14.18.17:560][438]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.19-14.18.17:560][438]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.19-14.18.17:560][438]LogInit: FAudioDevice initialized.
+[2021.12.19-14.18.17:560][438]LogAudio: Display: Audio Device (ID: 9) registered with world 'DemoLevel'.
+[2021.12.19-14.18.17:570][438]LogLoad: Game class is 'MyGameMode_C'
+[2021.12.19-14.18.17:572][438]LogWorld: Bringing World /Game/DemoContent/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2021.12.19-15.18.17
+[2021.12.19-14.18.17:573][438]LogWorld: Bringing up level for play took: 0.002331
+[2021.12.19-14.18.17:573][438]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.12.19-14.18.17:575][438]PIE: Server logged in
+[2021.12.19-14.18.17:576][438]PIE: Play in editor total start time 0.09 seconds.
+[2021.12.19-14.19.10:768][ 21]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-14.19.10:768][ 21]LogWorld: BeginTearingDown for /Game/DemoContent/UEDPIE_0_DemoLevel
+[2021.12.19-14.19.10:768][ 21]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-14.19.10:769][ 21]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-14.19.10:784][ 21]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.19-14.19.10:807][ 21]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-14.19.10:835][ 21]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.19-14.19.10:836][ 21]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.19-14.19.10:837][ 21]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.19-14.19.10:840][ 21]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-14.19.10:844][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.12.19-14.19.10:874][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2021.12.19-14.19.10:909][ 22]LogPlayLevel: Display: Destroying online subsystem :Context_20
