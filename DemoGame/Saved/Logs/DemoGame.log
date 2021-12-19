@@ -1332,3 +1332,188 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.12.19-19.00.22:357][570]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/DemoContent/DemoLevel_BuiltData.DemoLevel_BuiltData
 [2021.12.19-19.00.22:357][570]LogContentValidation: Display: Validating World /Game/DemoContent/DemoLevel.DemoLevel
 [2021.12.19-19.00.22:849][626]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2021.12.19-19.00.45:091][891]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.12.19-19.00.45:098][891]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.19-19.00.45:098][891]PIE: New page: PIE session: DemoLevel (Dec 19, 2021, 9:00:45 PM)
+[2021.12.19-19.00.45:098][891]LogPlayLevel: Creating play world package: /Game/DemoContent/UEDPIE_0_DemoLevel
+[2021.12.19-19.00.45:117][891]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018899s)
+[2021.12.19-19.00.45:118][891]LogAIModule: Creating AISystem for world DemoLevel
+[2021.12.19-19.00.45:119][891]LogPlayLevel: PIE: World Init took: (0.001165s)
+[2021.12.19-19.00.45:119][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoContent/DemoLevel.DemoLevel to /Game/DemoContent/UEDPIE_0_DemoLevel.DemoLevel (0.020189s)
+[2021.12.19-19.00.45:149][891]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2021.12.19-19.00.45:150][891]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.12.19-19.00.45:150][891]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.19-19.00.45:150][891]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.19-19.00.45:150][891]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.19-19.00.45:150][891]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.19-19.00.45:150][891]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.19-19.00.45:150][891]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.19-19.00.45:150][891]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.19-19.00.45:150][891]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.19-19.00.45:151][891]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.19-19.00.45:151][891]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.19-19.00.45:154][891]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.19-19.00.45:154][891]LogAudioMixer: Display: 1: FrontRight
+[2021.12.19-19.00.45:166][891]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.19-19.00.45:166][891]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.19-19.00.45:166][891]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.19-19.00.45:166][891]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.19-19.00.45:167][891]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.19-19.00.45:167][891]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.19-19.00.45:168][891]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.19-19.00.45:168][891]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.19-19.00.45:168][891]LogInit: FAudioDevice initialized.
+[2021.12.19-19.00.45:168][891]LogAudio: Display: Audio Device (ID: 4) registered with world 'DemoLevel'.
+[2021.12.19-19.00.45:200][891]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-19.00.45:200][891]LogLoad: Game class is 'MyGameMode_C'
+[2021.12.19-19.00.45:203][891]LogWorld: Bringing World /Game/DemoContent/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2021.12.19-20.00.45
+[2021.12.19-19.00.45:203][891]LogWorld: Bringing up level for play took: 0.002675
+[2021.12.19-19.00.45:203][891]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.12.19-19.00.45:208][891]PIE: Server logged in
+[2021.12.19-19.00.45:208][891]PIE: Play in editor total start time 0.112 seconds.
+[2021.12.19-19.00.46:709][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-19.00.46:709][985]LogWorld: BeginTearingDown for /Game/DemoContent/UEDPIE_0_DemoLevel
+[2021.12.19-19.00.46:710][985]LogSlate: Window 'DemoGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.12.19-19.00.46:726][985]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-19.00.46:726][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-19.00.46:733][985]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.19-19.00.46:749][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-19.00.46:778][985]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.19-19.00.46:779][985]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.19-19.00.46:786][985]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2021.12.19-19.00.46:817][985]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.12.19-19.00.46:833][986]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.12.19-19.00.48:734][150]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.12.19-19.00.48:741][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.19-19.00.48:741][150]PIE: New page: PIE session: DemoLevel (Dec 19, 2021, 9:00:48 PM)
+[2021.12.19-19.00.48:741][150]LogPlayLevel: Creating play world package: /Game/DemoContent/UEDPIE_0_DemoLevel
+[2021.12.19-19.00.48:761][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019863s)
+[2021.12.19-19.00.48:762][150]LogAIModule: Creating AISystem for world DemoLevel
+[2021.12.19-19.00.48:762][150]LogPlayLevel: PIE: World Init took: (0.000963s)
+[2021.12.19-19.00.48:762][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoContent/DemoLevel.DemoLevel to /Game/DemoContent/UEDPIE_0_DemoLevel.DemoLevel (0.020951s)
+[2021.12.19-19.00.48:793][150]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2021.12.19-19.00.48:795][150]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.12.19-19.00.48:795][150]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.19-19.00.48:795][150]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.19-19.00.48:795][150]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.19-19.00.48:795][150]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.19-19.00.48:795][150]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.19-19.00.48:795][150]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.19-19.00.48:795][150]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.19-19.00.48:795][150]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.19-19.00.48:795][150]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.19-19.00.48:795][150]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.19-19.00.48:798][150]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.19-19.00.48:798][150]LogAudioMixer: Display: 1: FrontRight
+[2021.12.19-19.00.48:809][150]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.19-19.00.48:809][150]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.19-19.00.48:809][150]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.19-19.00.48:809][150]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.19-19.00.48:811][150]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.19-19.00.48:811][150]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.19-19.00.48:812][150]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.19-19.00.48:812][150]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.19-19.00.48:812][150]LogInit: FAudioDevice initialized.
+[2021.12.19-19.00.48:812][150]LogAudio: Display: Audio Device (ID: 5) registered with world 'DemoLevel'.
+[2021.12.19-19.00.48:817][150]LogLoad: Game class is 'MyGameMode_C'
+[2021.12.19-19.00.48:819][150]LogWorld: Bringing World /Game/DemoContent/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2021.12.19-20.00.48
+[2021.12.19-19.00.48:819][150]LogWorld: Bringing up level for play took: 0.002403
+[2021.12.19-19.00.48:819][150]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.12.19-19.00.48:822][150]PIE: Server logged in
+[2021.12.19-19.00.48:823][150]PIE: Play in editor total start time 0.085 seconds.
+[2021.12.19-19.01.08:533][397]LogAudio: Warning: Detected orphaned looping sound 'Starter_Music_Cue'.
+[2021.12.19-19.01.37:531][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-19.01.37:532][431]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.12.19-19.01.37:532][431]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2021.12.19-19.01.37:532][431]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2021.12.19-19.01.41:157][787]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2021.12.19-19.01.41:157][787]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2021.12.19-19.01.41:158][787]LogNet: Browse: /Game/DemoContent/DemoLevel
+[2021.12.19-19.01.41:158][787]LogLoad: LoadMap: /Game/DemoContent/DemoLevel
+[2021.12.19-19.01.41:158][787]LogWorld: BeginTearingDown for /Game/DemoContent/UEDPIE_0_DemoLevel
+[2021.12.19-19.01.41:158][787]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-19.01.41:159][787]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-19.01.41:217][787]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.19-19.01.41:222][787]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2021.12.19-19.01.41:224][787]LogPlayLevel: Creating play world package: /Game/DemoContent/UEDPIE_0_DemoLevel
+[2021.12.19-19.01.41:244][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019849s)
+[2021.12.19-19.01.41:245][787]LogAIModule: Creating AISystem for world DemoLevel
+[2021.12.19-19.01.41:245][787]LogPlayLevel: PIE: World Init took: (0.001034s)
+[2021.12.19-19.01.41:245][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoContent/DemoLevel.DemoLevel to /Game/DemoContent/UEDPIE_0_DemoLevel.DemoLevel (0.021033s)
+[2021.12.19-19.01.41:245][787]LogAudio: Display: Audio Device (ID: 5) registered with world 'DemoLevel'.
+[2021.12.19-19.01.41:245][787]LogLoad: Game class is 'MyGameMode_C'
+[2021.12.19-19.01.41:247][787]LogWorld: Bringing World /Game/DemoContent/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2021.12.19-20.01.41
+[2021.12.19-19.01.41:247][787]LogWorld: Bringing up level for play took: 0.002247
+[2021.12.19-19.01.41:249][787]LogLoad: Took 0.091502 seconds to LoadMap(/Game/DemoContent/UEDPIE_0_DemoLevel)
+[2021.12.19-19.01.56:439][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-19.01.56:439][593]LogWorld: BeginTearingDown for /Game/DemoContent/UEDPIE_0_DemoLevel
+[2021.12.19-19.01.56:440][593]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-19.01.56:440][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-19.01.56:451][593]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.19-19.01.56:468][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-19.01.56:496][593]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.19-19.01.56:497][593]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.19-19.01.56:498][593]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.19-19.01.56:501][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-19.01.56:506][593]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2021.12.19-19.01.56:537][593]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2021.12.19-19.01.56:569][594]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.12.19-19.14.02:477][317]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.12.19-19.14.02:494][317]LogSlateStyle: Warning: Missing Resource from 'NiagaraEditorStyle' Style: 'Unable to find Color 'NiagaraEditor.AssetColors.EffectType'.'
+[2021.12.19-19.14.19:563][203]LogSlate: Window 'Project Settings' being destroyed
+[2021.12.19-19.14.19:600][203]LogSlate: Window 'Project Settings' being destroyed
+[2021.12.19-19.15.12:740][835]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/DemoContent/WinScreenMenu.WinScreenMenu
+[2021.12.19-19.15.13:037][835]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2021.12.19-19.15.13:037][835]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2021.12.19-19.15.26:056][325]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-19.15.49:072][  1]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoorA5BB783942A0B3B65F516CBEA0AA8F68.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-19.15.49:087][  1]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-19.15.49:087][  1]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-19.15.50:138][122]BlueprintLog: New page: Compile EndOfLevelDoor
+[2021.12.19-19.15.50:246][122]LogUObjectHash: Compacting FUObjectHashTables data took   6.18ms
+[2021.12.19-19.15.50:896][181]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoor1A045C96407873F2ADFB429E9BF57DDB.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-19.15.50:909][181]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-19.15.50:909][181]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-19.15.53:317][450]LogUObjectHash: Compacting FUObjectHashTables data took   7.91ms
+[2021.12.19-19.15.53:406][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2021.12.19-19.15.53:464][450]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/DemoLevel80B9CE064DDCA21B080638A191CE2309.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/DemoLevel.umap'
+[2021.12.19-19.15.53:469][450]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/DemoContent/DemoLevel_BuiltData
+[2021.12.19-19.15.53:534][450]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/DemoLevel_BuiltData68056515408B511E3EDE0281DADC8EBA.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/DemoLevel_BuiltData.uasset'
+[2021.12.19-19.15.53:536][450]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/DemoContent/DemoLevel_BuiltData
+[2021.12.19-19.15.53:536][450]LogFileHelpers: Saving map 'DemoLevel' took 0.164
+[2021.12.19-19.15.53:549][450]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.19-19.15.53:549][450]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/DemoContent/DemoLevel_BuiltData.DemoLevel_BuiltData
+[2021.12.19-19.15.53:549][450]LogContentValidation: Display: Validating World /Game/DemoContent/DemoLevel.DemoLevel
+[2021.12.19-19.15.55:178][594]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.12.19-19.16.15:088][290]LogSlate: Window 'Project Settings' being destroyed
+[2021.12.19-19.16.15:094][290]LogSlate: Window 'Project Settings' being destroyed
+[2021.12.19-19.16.18:353][655]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoorB46607784C86AD49EF002F8425447F0E.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-19.16.18:366][655]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-19.16.18:366][655]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-19.16.18:489][660]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoorEEA79D14462134B40DBC179A5E706462.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-19.16.18:503][660]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-19.16.18:503][660]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-19.16.19:160][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2021.12.19-19.16.19:774][791]BlueprintLog: New page: Compile EndOfLevelDoor
+[2021.12.19-19.16.19:846][791]LogUObjectHash: Compacting FUObjectHashTables data took   5.14ms
+[2021.12.19-19.16.20:530][851]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoor26210F9446FEA8255E036B9DAC0274D0.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-19.16.20:542][851]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-19.16.20:542][851]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
+[2021.12.19-19.16.20:700][865]LogUObjectHash: Compacting FUObjectHashTables data took   6.84ms
+[2021.12.19-19.16.20:790][865]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2021.12.19-19.16.20:852][865]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/DemoLevel202257DC4A1A494D9750E99286A4C1AF.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/DemoLevel.umap'
+[2021.12.19-19.16.20:857][865]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/DemoContent/DemoLevel_BuiltData
+[2021.12.19-19.16.20:925][865]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/DemoLevel_BuiltData87C932CA437CCD1A07ACF18CC88AEBCE.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/DemoLevel_BuiltData.uasset'
+[2021.12.19-19.16.20:926][865]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/DemoContent/DemoLevel_BuiltData
+[2021.12.19-19.16.20:926][865]LogFileHelpers: Saving map 'DemoLevel' took 0.172
+[2021.12.19-19.16.20:938][865]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.19-19.16.20:939][865]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/DemoContent/DemoLevel_BuiltData.DemoLevel_BuiltData
+[2021.12.19-19.16.20:939][865]LogContentValidation: Display: Validating World /Game/DemoContent/DemoLevel.DemoLevel
+[2021.12.19-19.16.21:761][959]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2021.12.19-19.16.24:223][240]LogSavePackage: Moving '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Saved/EndOfLevelDoor9F80C7E443C2098DB3EF47A70CED80BE.tmp' to '../../../../../../Users/milos/OneDrive/Documents/Unreal Projects/UE5_DemoGame/DemoGame/Content/DemoContent/EndOfLevelDoor.uasset'
+[2021.12.19-19.16.24:236][240]AssetCheck: New page: Asset Save: EndOfLevelDoor
+[2021.12.19-19.16.24:236][240]LogContentValidation: Display: Validating Blueprint /Game/DemoContent/EndOfLevelDoor.EndOfLevelDoor
